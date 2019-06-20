@@ -32,7 +32,7 @@ This is the front end of the API and where you enter the amount you wish to conv
 
 ### Notes
 
-"/currencys" displays in JSON format the currency rates used for calculations
+"/currency" displays in JSON format the currency rates used for calculations
 
 An "Insufficient funds" page is displayed if after applying the fees (flat 25GBP for amouns below 1000 GBP and 1% if >= 1000GBP) the final amount falls below 0. Please note Fees are applied prior to conversion.
 
