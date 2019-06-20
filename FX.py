@@ -47,7 +47,7 @@ def success(amount, in_currency, out_currency):
     
 
 @app.route('/convert',methods = ['POST', 'GET'])
-def login():
+def convert():
       # retrieving date from forms 
       money = request.form['nm']
       in_rate= request.form ['in_rate']
