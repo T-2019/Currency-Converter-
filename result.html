@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+<style>
+.center {
+  text-align: center;
+  border: 3px solid red;
+}
+</style>
+    <script>
+        var display = {{ display|safe }}
+    </script>
+</head>
+    <body>
+<div class="center">
+  <h1>{{ display }}</h1>
+</div>
+	</body>
+</html>
